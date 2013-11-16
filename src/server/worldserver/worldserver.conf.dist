@@ -2648,7 +2648,16 @@ Anticheat.ReportsForIngameWarnings = 70
 
 Anticheat.DetectionsEnabled = 31
 
+#     Anticheat.Ban
+#        Description: Make anticheat active (Ban cheaters character for 1 hour.)
+#        Default: 1 - (Enabled)
+#                 0 - (Disabled)
+#
+
+Anticheat.Ban = 1
+
 #     Anticheat.MaxReportsForDailyReport
+#
 #        Description: How many reports must the player have to make a report that it is in DB for a day (not only during the player's session).
 #        Default:     70
 
